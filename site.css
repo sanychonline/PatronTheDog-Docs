@@ -1186,3 +1186,15 @@ h1 {
     max-width: 42vw;
   }
 }
+
+/* Shared support and legal pages use Patron's navy and signal-blue palette. */
+.topbar, .home .topbar { background: rgba(9, 61, 83, .94); }
+body:not(.home) { background: radial-gradient(circle at 12% 12%, rgba(99, 197, 223, .34), transparent 22rem), radial-gradient(circle at 88% 18%, rgba(244, 208, 91, .25), transparent 24rem), linear-gradient(180deg, #F9FDFF, #E2F3F6 54%, #C9E8EF); }
+.legal-hero { background: radial-gradient(circle at 82% 16%, rgba(244, 208, 91, .43), transparent 23rem), linear-gradient(145deg, #083448, #0C6E8C 53%, #63C5DF); }
+.summary { border-color: rgba(12, 110, 140, .3); background: rgba(99, 197, 223, .22); }
+.toc, .stat-card, .faq details { border-color: rgba(12, 110, 140, .22); background: rgba(252, 254, 255, .8); }
+.faq details[open] { background: #FFFFFF; box-shadow: 0 14px 36px rgba(8, 52, 72, .12); }
+.document p, .document li, .faq-answer { color: #365466; }
+.page-card { background: linear-gradient(145deg, #083448, #0C6E8C 55%, #63C5DF); }
+.page-card::after { color: #F4D05B; }
+.footer { background: #061F2B; }
