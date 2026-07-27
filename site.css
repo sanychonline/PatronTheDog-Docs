@@ -1,21 +1,21 @@
 :root {
-  --ink: #06121a;
+  --ink: #06121A;
   --navy: #071621;
-  --blue: #0c2e40;
-  --blue-light: #164b64;
-  --paper: #f5f0e4;
-  --paper-2: #fffaf0;
+  --blue: #0C6E8C;
+  --blue-light: #63C5DF;
+  --paper: #EAF5F6;
+  --paper-2: #FFFFFF;
   --text: #102938;
-  --muted: #58707c;
-  --line: rgba(16, 41, 56, 0.14);
-  --yellow: #f4d05b;
-  --orange: #f18b42;
-  --teal: #63c5df;
-  --sand: #9b783b;
-  --white: #ffffff;
+  --muted: #58707C;
+  --line: rgba(16, 81, 105, .16);
+  --yellow: #F4D05B;
+  --orange: #F18B42;
+  --teal: #63C5DF;
+  --sand: #9B783B;
+  --white: #FFFFFF;
+  --shadow: rgba(7, 22, 33, .12);
   --max: 1120px;
   --reading: 790px;
-  --shadow: 0 24px 70px rgba(7, 22, 33, 0.12);
 }
 
 * {
@@ -30,7 +30,8 @@ body {
   margin: 0;
   color: var(--text);
   background:
-    radial-gradient(circle at 10% 12%, rgba(99, 197, 223, 0.12), transparent 24rem),
+    radial-gradient(circle at 10% 12%, rgba(99, 197, 223, .16), transparent 24rem),
+    radial-gradient(circle at 88% 20%, rgba(244, 208, 91, .16), transparent 25rem),
     linear-gradient(180deg, var(--paper-2), var(--paper));
   font-family: "Avenir Next", "Trebuchet MS", "Segoe UI", sans-serif;
   line-height: 1.7;

@@ -993,7 +993,7 @@
     band.innerHTML = `
       <div class="shell app-store-band-inner">
         <a class="app-store-badge-link" href="https://apps.apple.com/" target="_blank" rel="noreferrer" aria-label="Download on the App Store">
-          <img class="app-store-badge" src="images/app-store-badge.png" alt="Download on the App Store">
+          <img class="app-store-badge" src="images/appStoreBadge.png" alt="Download on the App Store">
         </a>
       </div>
     `;
