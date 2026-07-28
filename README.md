@@ -1,6 +1,6 @@
 # Patron the Dog Docs
 
-Public product and support site for **Patron the Dog** / **Пес Патрон**. The character is **Пес Патрон**, catching falling бубухи in a three-lane arcade game.
+Public product and support site for **Patron the Dog** / **Пес Патрон**. The character is **Пес Патрон**, a reflex-driven three-line action game about clearing hazards before they go off.
 
 ## Site content
 
